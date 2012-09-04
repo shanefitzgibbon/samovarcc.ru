@@ -1,0 +1,5 @@
+Anna Harzeeva
+-------------
+### Founder and director of Samovar Cook & Chat Club
+
+Born and raised in Moscow, but managed to live in Australia, gained access to the oriental food, and met with numerous local cultures. In Australia, like so much that even married an Australian (living in Moscow). Very fond of cross-cultural relationships and loves to learn foreign languages that have been teaching for 5 years - children and adults (English and Italian). Cambridge received a certificate for teachers of English. Graduated IAAS MSU, where to learn Hebrew, and even after the Institute continues to love languages. She likes to teach, travel, There are cooking - hence the idea to create Samovar Cook & Chat Club. Loves Vietnamese Spring rolls and Singaporean noodles, wants to travel around South America. Studying Spanish.

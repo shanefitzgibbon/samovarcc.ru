@@ -8,5 +8,16 @@
   = partial "layouts/head"
   %body
     = partial "layouts/header-en"
-    %div{:role => "main", :class => "main"}= yield
+
+    .two-cols
+      .content
+        = yield
+        = partial "social-tracker"
+        = partial "social-comments"
+
+      .side-bar
+        = partial "cuisines"
+        = partial "calendar"
+        = partial "news-en"
+
     =partial "layouts/footer"

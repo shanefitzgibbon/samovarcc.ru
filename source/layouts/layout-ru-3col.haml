@@ -1,0 +1,25 @@
+!!!5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+/ [if gt IE 8]><!
+%html.no-js
+  / <![endif]
+  = partial "layouts/head"
+  %body
+    = partial "layouts/header-ru"
+
+    %div{:role => "main", :class => "main"}
+      .three-cols
+        .content
+          = yield
+
+        .side-bar-1
+          = partial "news-ru"
+
+        .side-bar-2
+          = partial "cuisines"
+          = partial "calendar"
+          = partial "social-tracker"
+
+    =partial "layouts/footer"

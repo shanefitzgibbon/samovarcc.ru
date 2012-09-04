@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 module SiteHelpers
 
   def page_title
