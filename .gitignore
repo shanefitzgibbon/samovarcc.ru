@@ -2,4 +2,5 @@
 /.sass-cache
 .sass-cache
 .scssc
+.idea/
 build/
