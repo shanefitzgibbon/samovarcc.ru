@@ -1,2 +1,26 @@
 /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
-%header
+%header.main
+  %hgroup
+    %h1 Samovar Cook&Chat Club
+    = partial "social"
+    .lang-selector
+      = link_to 'RUS', '/lang-ru'
+    %h2 Language - Focused Cooking Classes
+
+#menu
+  %nav.primary
+    %ul.l-inline
+      %li
+        =link_to 'about us', '/about-us.html'
+      %li
+        =link_to 'book a class', '/book-a-class.html'
+      %li
+        =link_to 'kids classes', '/kids.html'
+      %li
+        =link_to 'gallery', '/gallery.html'
+      %li
+        =link_to 'press about us', '/press-about-us.html'
+      %li
+        =link_to 'community', '/community.html'
+      %li
+        =link_to 'our partners', '/partners.html'

@@ -2,16 +2,15 @@
 layout: layout-en-2col
 ---
 
-=partial "about-samovar-en"
+#about-samovar
+  =partial "about-samovar-en"
 
 %h1 OUR TEAM
 
-= image_tag 'anna.png'
+.team-member
+  = image_tag 'anna.png'
+  = partial "about-anna-en"
 
-= partial "about-anna-en"
-
-
-
-= image_tag 'nargis.png'
-
-= partial "about-nargis-en"
+.team-member
+  = image_tag 'nargis.png'
+  = partial "about-nargis-en"

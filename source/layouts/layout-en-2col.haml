@@ -9,15 +9,16 @@
   %body
     = partial "layouts/header-en"
 
-    .two-cols
-      .content
-        = yield
-        = partial "social-tracker"
-        = partial "social-comments"
+    %div{:role => "main", :class => "main"}
+      .two-cols
+        .content
+          = yield
+          = partial "social-tracker"
+          = partial "social-comments"
 
-      .side-bar
-        = partial "cuisines"
-        = partial "calendar"
-        = partial "news-en"
+        .side-bar
+          = partial "cuisines"
+          = partial "calendar"
+          = partial "news-en"
 
     =partial "layouts/footer"

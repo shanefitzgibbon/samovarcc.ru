@@ -8,10 +8,11 @@ $grid-padding: 10px;
 
 $container-style: static;
 $container-width: 1140px;
+//@include border-box-sizing;
 
 .main {
   @include container;
-  @include susy-grid-background;
+  //@include susy-grid-background;
 }
 
 .three-cols {
@@ -33,4 +34,11 @@ $container-width: 1140px;
   .side-bar {
     @include span-columns(3 omega, 12);
   }
+}
+
+.l-inline > * {
+  display: inline-block;
+}
+.l-stacked > * {
+  display: block;
 }

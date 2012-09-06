@@ -1,0 +1,16 @@
+@import "compass/typography/text/replacement";
+@import "social-icons/*.png";
+
+
+nav.social {
+  @include all-social-icons-sprites;
+  li {
+    margin: 0 2px 0 3px;
+    width: social-icons-sprite-width(facebook);
+    height : social-icons-sprite-width(facebook);
+    a {
+      display: block;
+      @include hide-text;
+    }
+  }
+}
