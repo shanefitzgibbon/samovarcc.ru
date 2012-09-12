@@ -1,0 +1,215 @@
+@import "compass/typography/text/replacement";
+
+hgroup {
+  > h1 {
+    @include span-columns(6, 12);
+    @include replace-text("logo/logo-opt.png");
+    height: 100%;
+    font-size: 5.5em;
+    margin: 0;
+  }
+  .social {
+    @include prefix(3);
+    @include span-columns(2, 12);
+  }
+
+  .lang-selector {
+    @include span-columns(1 omega, 12);
+    margin: 1em 0;
+    a {
+      margin: 0;
+      float: right;
+      text-decoration: none;
+      color: $color4;
+    }
+  }
+  h2 {
+    @include push(1);
+    @include span-columns(5 omega, 12);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    word-spacing:0.25em;
+    margin: 0;
+    color: $color4;
+  }
+}
+header.ru {
+  h2 {
+    @include span-columns(6 omega, 12);
+    word-spacing:0;
+    font-size: 1.25em;
+    padding-top: 2em;
+  }
+}
+
+#menu {
+  @include reset-columns;
+  background-color: $color1;
+  border-top: 5px $color4 solid;
+}
+
+nav.primary {
+  @include container;
+  padding: 0;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    margin: 0 0em;
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover, &:active {
+        text-decoration: underline;
+      }
+    }
+
+  }
+}
+
+//menu sprites
+.menu-en-sprite,
+.menu-en-about-us,
+.menu-en-book-a-class,
+.menu-en-kids,
+.menu-en-gallery,
+.menu-en-press,
+.menu-en-community,
+.menu-en-partners {
+  background: url('/images/nav-images-en/menu_en.png') no-repeat;
+  display: inline-block;
+  height: 45px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  @include hide-text;
+}
+
+.menu-ru-about-us,
+.menu-ru-book-a-class,
+.menu-ru-community,
+.menu-ru-gallery,
+.menu-ru-kids,
+.menu-ru-partners,
+.menu-ru-press{
+  display: inline-block;
+  background: url('/images/nav-images-ru/menu_ru.png') no-repeat;
+  height:45px;
+  margin-top: 0.5em;
+  @include hide-text;
+}
+
+.menu-en-about-us { background-position: 0 0; width: 125px;}
+.menu-en-book-a-class   { background-position: -127px 0; width: 180px;}
+.menu-en-kids    { background-position: -311px 0; width: 180px}
+.menu-en-gallery   { background-position: -495px 0; width: 125px;}
+.menu-en-press   { background-position: -623px 0; width: 200px;}
+.menu-en-community   { background-position: -830px 0; width: 150px;}
+.menu-en-partners   { background-position: -985px 0; width: 155px;}
+//change sprite for :hover :active and selected (class set by javascript)
+.menu-en-about-us:hover,
+.menu-en-about-us:active,
+.menu-en-about-us.selected { background-position: 0 -43px; width: 125px;}
+.menu-en-book-a-class:hover,
+.menu-en-book-a-class:active,
+.menu-en-book-a-class.selected { background-position: -127px -43px; width: 180px;}
+.menu-en-kids:hover,
+.menu-en-kids:active,
+.menu-en-kids.selected { background-position: -311px -43px; width: 180px}
+.menu-en-gallery:hover,
+.menu-en-gallery:active,
+.menu-en-gallery.selected { background-position: -495px -43px; width: 125px;}
+.menu-en-press:hover,
+.menu-en-press:active,
+.menu-en-press.selected { background-position: -623px -43px; width: 200px;}
+.menu-en-community:hover,
+.menu-en-community:active,
+.menu-en-community.selected { background-position: -830px -43px; width: 150px;}
+.menu-en-partners:hover,
+.menu-en-partners:active,
+.menu-en-partners.selected { background-position: -985px -43px; width: 155px;}
+
+.menu-ru-about-us {
+  background-position:0px 0px;
+  width:85px;
+
+}
+.menu-ru-about-us:hover
+{
+  background-position:-85px 0px;
+  width:85px;
+  height:59px;
+}
+.menu-ru-book-a-class
+{
+  background-position:-170px 0px;
+  width:312px;
+  height:59px;
+}
+.menu-ru-book-a-class:hover
+{
+  background-position:-482px 0px;
+  width:312px;
+  height:59px;
+}
+.menu-ru-community
+{
+  background-position:0px -59px;
+  width:156px;
+  height:57px;
+}
+.menu-ru-community:hover
+{
+  background-position:-156px -59px;
+  width:156px;
+  height:57px;
+}
+.menu-ru-gallery
+{
+  background-position:-312px -59px;
+  width:128px;
+  height:57px;
+}
+.menu-ru-gallery:hover
+{
+  background-position:-440px -59px;
+  width:128px;
+  height:57px;
+}
+.menu-ru-kids
+{
+  background-position:-568px -59px;
+  width:113px;
+  height:59px;
+}
+.menu-ru-kids:hover
+{
+  background-position:-681px -59px;
+  width:113px;
+  height:59px;
+}
+.menu-ru-partners
+{
+  background-position:0px -118px;
+  width:118px;
+  height:57px;
+}
+.menu-ru-partners:hover
+{
+  background-position:-118px -118px;
+  width:118px;
+  height:57px;
+}
+.menu-ru-press
+{
+  background-position:-236px -118px;
+  width:170px;
+  height:59px;
+}
+.menu-ru-press:hover
+{
+  background-position:-406px -118px;
+  width:170px;
+  height:59px;
+}

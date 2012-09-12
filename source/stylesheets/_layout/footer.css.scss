@@ -1,0 +1,11 @@
+footer {
+  background-color: $color4;
+  .content {
+    @include container;
+  }
+  height: 5em;
+  .contact-info {
+    float: right;
+    margin: 2em 2em;
+  }
+}

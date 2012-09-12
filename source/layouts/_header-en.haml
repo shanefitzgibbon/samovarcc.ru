@@ -2,7 +2,7 @@
 %header.main
   %hgroup
     %h1 Samovar Cook&Chat Club
-    = partial "social"
+    = partial "module/social"
     .lang-selector
       = link_to 'RUS', '/lang-ru'
     %h2 Language - Focused Cooking Classes
@@ -11,16 +11,16 @@
   %nav.primary
     %ul.l-inline
       %li
-        =link_to 'about us', '/about-us.html'
+        =link_to 'about us', '/lang-en/about-us.html', :class => 'menu-en-about-us'
       %li
-        =link_to 'book a class', '/book-a-class.html'
+        =link_to 'book a class', '/lang-en/book-a-class.html', :class => 'menu-en-book-a-class'
       %li
-        =link_to 'kids classes', '/kids.html'
+        =link_to 'kids classes', '/lang-en/kids.html', :class => 'menu-en-kids'
       %li
-        =link_to 'gallery', '/gallery.html'
+        =link_to 'gallery', '/lang-en/gallery.html', :class => 'menu-en-gallery'
       %li
-        =link_to 'press about us', '/press-about-us.html'
+        =link_to 'press about us', '/lang-en/press.html', :class => 'menu-en-press'
       %li
-        =link_to 'community', '/community.html'
+        =link_to 'community', '/lang-en/community.html', :class => 'menu-en-community'
       %li
-        =link_to 'our partners', '/partners.html'
+        =link_to 'our partners', '/lang-en/partners.html', :class => 'menu-en-partners'
