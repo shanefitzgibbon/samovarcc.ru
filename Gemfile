@@ -5,3 +5,4 @@ gem "middleman-favicon-maker", "~>3.0.0", :git => "git://github.com/follmann/mid
 gem "middleman-livereload", "~>3.0.0", :git => "git://github.com/middleman/middleman-livereload.git"
 gem "susy", "1.0"
 gem "redcarpet"
+gem "RedCloth"

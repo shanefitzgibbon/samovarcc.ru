@@ -1,0 +1,25 @@
+---
+layout: layout-en-3col
+---
+
+notextile.  <!--
+
+  ORIGINAL TEXT
+
+  Мы проводим японские мастер-классы для взрослых и детей от 5 лет.
+  Мастер-классыдля взрослыхведутся поваром - носителем языка, на занятии присутствует преподаватель японского языка, который поможет Вам разобраться с непонятными терминами. Для участия в таком мастер-классе необходимо владеть языком на разговорном уровне.
+
+  Мастер-классы для детей ведутся опытным преподаватем японского языка, изучаются основы языка и культуры Японии, а также много внимания уделяется умению работать в команде, убирать за собой и изучению полезных свойств продуктов.
+
+  Если Вы хотите записаться на мастер-класс по японскому языку/кухне/культуре - следите за обновлениями на сайте или напишите нам на samovarcc@yandex.ru, и мы сообщим Вам о ближайших мастер-классах!
+
+notextile.  --!>
+
+We are conducting Japanese master classes for adults and children aged 5 years.
+Master klassydlya vzroslyhvedutsya chef - a native speaker in the classroom present Japanese language teachers who will help you with the confusing terminology. To participate in a master class to speak the language at a conversational level.
+
+Master classes for children are taught by experienced teachers of Japanese language study basics of the language and culture of Japan, and a lot of attention is paid to the ability to work in a team, clean up after themselves and the study of useful properties of the products.
+
+If you want to enroll in a master class in Japanese language / cuisine / culture - stay tuned to the website or write to us at samovarcc@yandex.ru, and we will inform you about upcoming workshops!
+
+!/images/sushi.jpg(Sushi)!

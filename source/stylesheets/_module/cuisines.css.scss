@@ -1,3 +1,12 @@
 .cuisines {
-  background-color: pink;
+  ul {
+    list-style: none;
+    padding: 0;
+    a {
+      color: $color4;
+    }
+    li {
+      margin-top: 0.25em;
+    }
+  }
 }

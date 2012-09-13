@@ -1,0 +1,28 @@
+---
+layout: layout-en-3col
+---
+
+notextile.  <!--
+
+  ORIGINAL TEXT
+
+  Мы проводим мастер-классы на английском языке для взрослых и детей от 5 лет.
+
+  Мастер-классыдля взрослыхведутся поваром - носителем языка, на занятии присутствует преподаватель английского языка, который поможет Вам разобраться с непонятными терминами. Для участия в таком мастер-классе необходимо владеть языком на разговорном уровне.
+
+  Мастер-классыдля детейведутся опытным преподаватем английского языка, изучаются основы языка и культуры англоязычных стран, а также много внимания уделяется умению работать в команде, убирать за собой и изучению полезных свойств продуктов.
+
+  На английском языке будут проходить мастер-классы кухонь разных 
+  стран мира, следите за обновлениями на сайте!
+
+notextile.  --!>
+
+We conduct workshops in English for adults and children aged 5 years.
+
+Master klassydlya vzroslyhvedutsya chef - a native speaker in the session there an English teacher who will help you with the confusing terminology. To participate in a master class to speak the language at a conversational level.
+
+Master klassydlya deteyvedutsya experienced teachers of English, examines the basis of language and culture of English-speaking countries, as well as a lot of attention is paid to the ability to work in a team, clean up after themselves and the study of useful properties of the products.
+
+In English will be held master classes different cuisines the world, stay tuned to the site!
+
+!/images/tea-cup.jpg(Tea cup)!

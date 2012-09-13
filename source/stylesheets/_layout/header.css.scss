@@ -95,7 +95,7 @@ nav.primary {
 .menu-ru-press{
   display: inline-block;
   background: url('/images/nav-images-ru/menu_ru.png') no-repeat;
-  height:45px;
+  height:59px;
   margin-top: 0.5em;
   @include hide-text;
 }
@@ -130,86 +130,31 @@ nav.primary {
 .menu-en-partners:active,
 .menu-en-partners.selected { background-position: -985px -43px; width: 155px;}
 
-.menu-ru-about-us {
-  background-position:0px 0px;
-  width:85px;
-
-}
-.menu-ru-about-us:hover
-{
-  background-position:-85px 0px;
-  width:85px;
-  height:59px;
-}
-.menu-ru-book-a-class
-{
-  background-position:-170px 0px;
-  width:312px;
-  height:59px;
-}
-.menu-ru-book-a-class:hover
-{
-  background-position:-482px 0px;
-  width:312px;
-  height:59px;
-}
-.menu-ru-community
-{
-  background-position:0px -59px;
-  width:156px;
-  height:57px;
-}
-.menu-ru-community:hover
-{
-  background-position:-156px -59px;
-  width:156px;
-  height:57px;
-}
-.menu-ru-gallery
-{
-  background-position:-312px -59px;
-  width:128px;
-  height:57px;
-}
-.menu-ru-gallery:hover
-{
-  background-position:-440px -59px;
-  width:128px;
-  height:57px;
-}
-.menu-ru-kids
-{
-  background-position:-568px -59px;
-  width:113px;
-  height:59px;
-}
-.menu-ru-kids:hover
-{
-  background-position:-681px -59px;
-  width:113px;
-  height:59px;
-}
-.menu-ru-partners
-{
-  background-position:0px -118px;
-  width:118px;
-  height:57px;
-}
-.menu-ru-partners:hover
-{
-  background-position:-118px -118px;
-  width:118px;
-  height:57px;
-}
-.menu-ru-press
-{
-  background-position:-236px -118px;
-  width:170px;
-  height:59px;
-}
-.menu-ru-press:hover
-{
-  background-position:-406px -118px;
-  width:170px;
-  height:59px;
-}
+.menu-ru-about-us { background-position:0px 0px; width:85px; }
+.menu-ru-about-us:hover,
+.menu-ru-about-us:active,
+.menu-ru-about-us.selected {background-position:-85px 0px; width:85px;}
+.menu-ru-book-a-class {background-position:-170px 0px; width:312px;}
+.menu-ru-book-a-class:hover,
+.menu-ru-book-a-class:active,
+.menu-ru-book-a-class.selected {background-position:-482px 0px; width:312px;}
+.menu-ru-community { background-position:0px -59px; width:156px;}
+.menu-ru-community:hover,
+.menu-ru-community:active,
+.menu-ru-community.selected {background-position:-156px -59px; width:156px;}
+.menu-ru-gallery {background-position:-312px -59px; width:128px;}
+.menu-ru-gallery:hover,
+.menu-ru-gallery:active,
+.menu-ru-gallery.selected {background-position:-440px -59px; width:128px;}
+.menu-ru-kids { background-position:-568px -59px; width:113px;}
+.menu-ru-kids:hover,
+.menu-ru-kids:active,
+.menu-ru-kids.selected {background-position:-681px -59px; width:113px;}
+.menu-ru-partners {background-position:0px -118px; width:118px;}
+.menu-ru-partners:hover,
+.menu-ru-partners:active,
+.menu-ru-partners.selected {background-position:-118px -118px; width:118px;}
+.menu-ru-press {background-position:-236px -118px; width:170px;}
+.menu-ru-press:hover,
+.menu-ru-press:active,
+.menu-ru-press.selected { background-position:-406px -118px; width:170px;}
