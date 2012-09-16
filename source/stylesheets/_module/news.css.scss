@@ -1,0 +1,15 @@
+.news {
+  font-family: $contentFontFamily;
+  color: #717171;
+  font-size: 12px;
+  h1, h2, h3 {
+    font-weight: bold;
+    color: black;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+}
