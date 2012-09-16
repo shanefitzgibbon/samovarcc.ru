@@ -34,6 +34,14 @@ activate :livereload
 #   page "/admin/*"
 # end
 
+with_layout :'layout-en-3col' do
+  page "/lang-en/cuisine-*"
+end
+
+with_layout :'layout-ru-3col' do
+  page "/lang-ru/cuisine-*"
+end
+
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
