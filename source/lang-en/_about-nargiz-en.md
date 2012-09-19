@@ -1,4 +1,4 @@
-Nargis Mukhitdinova
+Nargiz Mukhitdinova
 ------------------
 ### Co-Founder, Director of Development
 

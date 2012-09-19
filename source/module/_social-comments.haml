@@ -1,1 +1,10 @@
-%h2 Facebook comments
+.social-comments
+  .fb-like{"data-send" => "false", "data-layout" => "standard", "data-show-faces" => "false", "data-font" => "verdana"}
+
+  %a.twitter-share-button{"data-lang" => "en", "data-via" => "samovarcc", "data-count" => "horizontal",
+  :href => "https://twitter.com/share"} Tweet
+
+  :javascript
+      document.write(VK.Share.button(false,{type: "round", text: "Да"}));
+
+  .fb-comments{"data-href" => "http:/www.samovarcc.ru", "data-num-posts" => "5"}

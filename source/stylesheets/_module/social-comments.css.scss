@@ -1,0 +1,11 @@
+.social-comments {
+  @include reset-columns;
+  @include span-columns(9);
+  margin-top: 2em;
+  table {
+    display: inline-table;
+  }
+  .fb-comments {
+    margin-top: 1em;
+  }
+}

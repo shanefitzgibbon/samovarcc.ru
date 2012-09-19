@@ -14,5 +14,10 @@
 
 
   = javascript_include_tag "vendor/modernizr-2.6.1.min"
+
   = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic'
   = stylesheet_link_tag "site"
+
+  -# The social media javascript imports
+  %script{:charset => "windows-1251", :src => "http://vk.com/js/api/share.js?11", :type => "text/javascript"}
+  %script{:src => "http://userapi.com/js/api/openapi.js?52", :type => "text/javascript"}

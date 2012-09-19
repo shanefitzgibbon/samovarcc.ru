@@ -1,4 +1,4 @@
-Anna Harzeeva
+Anya Kharzeeva
 -------------
 ### Founder and director of Samovar Cook & Chat Club
 

@@ -1,7 +1,7 @@
 @import "compass/typography/text/replacement";
 
 hgroup {
-  > h1 {
+  h1 {
     @include span-columns(6, 12);
     @include replace-text("logo/logo-opt.png");
     height: 100%;
