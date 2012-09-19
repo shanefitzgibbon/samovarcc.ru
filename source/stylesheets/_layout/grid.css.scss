@@ -12,7 +12,7 @@ $container-width: 1140px;
 
 .main {
   @include container;
-  @include susy-grid-background;
+  //@include susy-grid-background;
 }
 
 .three-cols {
