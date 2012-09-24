@@ -1,4 +1,9 @@
 ABOUT US
 ========
 
-*Samovar Cook & Chat Club* - a club of fans of travel, foreign languages, cultures and cuisines. We love to cook, communicate, travel and learn foreign languages. We have created a place where you can learn to cook and foreign language at the same time, as we believe that the joint is cooking a great way in a relaxed, family atmosphere to learn the culture and languages of different countries. We are inviting everyone to gather around the samovar, to prepare and try dishes from different countries and learn or practice your favorite language. We conduct cooking classes for all ages from 4eh years for all who want to start learning a foreign language (or to acquaint the child with the language) and to do this in a fun and interesting way. For those who already speak the language, but who do not have enough practice (master classes for adults are conducted by native speakers). At the moment we offer the following languages; English, Italian, French, Japanese, Spanish. We also plan to actively engage in charity and always look forward to working with all whom we are interesting.
+Samovar Cook&Chat Club is a place for those who love foreign languages, travelling, cultures & cuisines of the world.
+We created a place where you can learn a new language and cooking skills at the same time because we think that cooking is a great opportunity to engage in a foreign culture and language as it offers a friendly and motivating atmosphere.
+Cooking classes for adults are conducted either by professional chefs or by people who we consider to be amazing chefs and amazing people. We are inviting everyone to gather around our Samovar, cook & chat together and have a great time.
+So choose a language, book a class and we are looking forward to seeing you at our Samovar!
+The cuisines available now are Russian, Uzbek, French, Italian and Thai.
+We consider important to give back to the community so please join our charity events.
