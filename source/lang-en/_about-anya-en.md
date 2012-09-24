@@ -2,4 +2,7 @@ Anya Kharzeeva
 -------------
 ### Founder and director of Samovar Cook & Chat Club
 
-Born and raised in Moscow, but managed to live in Australia, gained access to the oriental food, and met with numerous local cultures. In Australia, like so much that even married an Australian (living in Moscow). Very fond of cross-cultural relationships and loves to learn foreign languages that have been teaching for 5 years - children and adults (English and Italian). Cambridge received a certificate for teachers of English. Graduated IAAS MSU, where to learn Hebrew, and even after the Institute continues to love languages. She likes to teach, travel, There are cooking - hence the idea to create Samovar Cook & Chat Club. Loves Vietnamese Spring rolls and Singaporean noodles, wants to travel around South America. Studying Spanish.
+Born and raised in Moscow but has spent a few months in Australia where she fell in love with the local cultures and cuisines. Liked Australia enough to marry one of the locals (currently residing in Moscow). 
+Anna loves inter-cultural relations and learning foreign languages of which she speaks 3(English, Italian, Hebrew) and has been teaching them for 5 years to children and adults. Got the Cambridge CELTA certificate for teachers of English as a second language. Graduated from Moscow State University majoring in Hebrew and Jewish studies, and even after the university years still has a passion for languages.
+Loves teaching, travelling, eating , cooking and chatting and decided to create Samovar Cook&Chat Club of it. 
+Loves spring rolls, laksa, wants to travel around South America and is studying Spanish.
