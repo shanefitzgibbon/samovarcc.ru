@@ -14,6 +14,15 @@
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
+  /code for underlining correct menu-item for current page
+  -#:javascript
+  -#  $(document).ready(function(){
+  -#    var pathname = location.pathname;
+  -#    $('nav.primary li').each(function(index){
+  -#      alert(index + 'class: ' + $(this).css('class'))
+  -#    });
+  -#  });
+
   /code required by facebook social plugins
   /#fb-root
   :javascript

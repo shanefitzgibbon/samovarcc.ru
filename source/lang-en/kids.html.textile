@@ -2,8 +2,10 @@
 layout: layout-en-2col
 ---
 
-KIDS CLASSES
+h1. KIDS CLASSES
 
 Cooking classes for children are conducted by professional, experienced teachers who speak the foreign language required. We offer a 4 class course in which children learn to make breakfast, lunch, dinner and dessert and learn to say hello, count, name the colors, foods, family members and more(depending on the skills of each group).
+
 We focus on healthy food, team work and creativity. Teaching children about the nutritious qualities of foods is a priority as well.
-Currently we do cooking classes at Obraz zhizni restaurant on Sundays at 1pm (please see calendar for details), classes are conducted in English with a little bit of Russian. Children learn to make healthy meals and help each other learn one another’s languages while being supervised experienced teachers. 
+
+Currently we do cooking classes at Obraz zhizni restaurant on Sundays at 1pm (please see calendar for details), classes are conducted in English with a little bit of Russian. Children learn to make healthy meals and help each other learn one another’s languages while being supervised experienced teachers.

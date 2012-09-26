@@ -2,9 +2,11 @@
 layout: layout-en-2col
 ---
 
-OUR CONTRIBUTION
+h1. OUR CONTRIBUTION
 
 We hope that our cooking classes will help promote tolerant attitude to foreign cultures and we consider it to be very important to help those who are less fortunate than us.
+
 We have done a charity event at a Montessori school in Moscow in December 2011, children were decorating cookies and cupcakes and all the proceeds from ticket sales went to the Center for Curative Pedagogics (http://www.ccp.org.ru/). It was an amazing day and we plan to do lots more charity events in the near future, stay tuned for the upcoming events.
+
 If you want to organize a charity event together, or if you are a charity seeking help, please get in touch with us and we would love to all we can to make a difference.
 
