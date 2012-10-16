@@ -1,0 +1,4 @@
+Karen Percy
+-----------
+
+Karen Percy is an Australian broadcast journalist who has lived in Moscow for two years. She worked for Canada’s national broadcaster in Toronto, where she met her husband and fellow correspondent, Norman. Back in Australia, Karen continued her commitment to telling important stories at the Australian Broadcasting Corporation. That led to a posting as the ABC’s correspondent in Bangkok, covering stories all over Thailand and South-East Asia. Karen’s passions for travel and fine food have taken her all over the world, picking up some wonderful cooking skills along the way. We are very lucky to have her share her talents as a communicator and culinary connoisseur.
