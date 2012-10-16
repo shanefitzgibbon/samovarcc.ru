@@ -15,13 +15,17 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   /code for underlining correct menu-item for current page
-  -#:javascript
-  -#  $(document).ready(function(){
-  -#    var pathname = location.pathname;
-  -#    $('nav.primary li').each(function(index){
-  -#      alert(index + 'class: ' + $(this).css('class'))
-  -#    });
-  -#  });
+  /this is a bit of a hack at the moment but works for now
+  :javascript
+    $(document).ready(function(){
+      var pathname = location.pathname
+      var matched =  pathname.match(/.*\/lang-([^/]+)\/([^/]+)\.([^?]+)/i);
+      var lang = matched[1];
+      var filename = matched[2];
+      //alert("pathname: " + pathname + " filename: " + filename + " lang: " + lang)
+      $('nav.primary li a').removeClass('selected');
+      $('nav.primary li a.menu-' + lang + '-' + filename).addClass('selected');
+    });
 
   /code required by facebook social plugins
   /#fb-root
