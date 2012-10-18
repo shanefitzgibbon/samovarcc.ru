@@ -14,12 +14,11 @@
       .two-cols
         .content
           = yield
-          //= partial "module/social-tracker"
           = partial "module/social-comments"
 
         .side-bar
-          = partial "module/cuisines"
-          = partial "module/calendar"
+          -#= partial "module/cuisines"
+          -#= partial "module/calendar"
           = partial "module/news-ru"
 
     =partial "layouts/footer"
