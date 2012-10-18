@@ -39,11 +39,11 @@ page "/maintenance.html", :layout => "min"
 page "/404.html", :layout => "min"
 
 with_layout :'layout-en-3col' do
-  page "/lang-en/cuisine-*"
+  page "/en/cuisine-*"
 end
 
 with_layout :'layout-ru-3col' do
-  page "/lang-ru/cuisine-*"
+  page "/ru/cuisine-*"
 end
 
 # Proxy (fake) files

@@ -14,7 +14,7 @@
   :javascript
     $(document).ready(function(){
       var pathname = location.pathname
-      var matched =  pathname.match(/.*\/lang-([^/]+)\/([^/]+)\.([^?]+)/i);
+      var matched =  pathname.match(/.*\/([^/]+)\/([^/]+)\.([^?]+)/i);
       var lang = matched[1];
       var filename = matched[2];
       //alert("pathname: " + pathname + " filename: " + filename + " lang: " + lang)
