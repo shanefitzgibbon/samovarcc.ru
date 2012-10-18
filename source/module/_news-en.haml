@@ -1,47 +1,57 @@
+-##templates
+-#  .template.event
+-#    .description
+-#      .name XXX
+-#      .date %strong 18 апреля в 19.30 
+-#      .full
+-#        кулинарный мастер-класс на английском языке для взрослых. Готовим греческий салат,
+-#        питу,кальмары и яблочно-миндальный 
+-#        тарт с поваром из Канады.
+-#    .details
+-#      обязательна предварительная запись - 
+-#      samovarcc@yandex.ru, 2500р, 
+-#      .location
+-#        в ресторане DoDo - www.dodoproject.com
+
+
 %section.news
-  %h2 Новости
+  :javascript
+    function loadNews() {
+      FB.api('SamovarCookChatClub?fields=events.limit(10).fields(privacy,start_time,name,location,venue)' +
+        '&access_token=' + $.samovarcc.APP_ACCESS_TOKEN, function(response){
+        if (response.error){
+          alert("data: " + response.error.message)
+        }
+        else if (response.events){
+          var source   = $("#event-en").html();
+          var template = Handlebars.compile(source);
+          var now = new Date();
+          //alert("response data: " + response.events.data)
+          $.each(response.events.data, function(key, json) {
+            var start_date = new Date(json.start_time);
+            if (start_date.getTime() > now.getTime()){
+              var event = $('<article>').addClass('event').appendTo('#upcoming-events');
+              event.html(template(json));
+            }
+            else {
+              var event = $('<article>').addClass('event').appendTo('#past-events');
+              event.html(template(json))
+            }
 
-  %h3 Ближайшие мероприятия:
+            //alert("event name: " + json.name + " key: " + key)
+            //
+            //$('div.template.event').children().clone().appendTo(event);//.trigger('adjustDetails');
+          });
+        }
+      });
+    }
 
-  %article.event
-    .description
-      %strong 15 апреля в 12.00 
-      детский мастер
-      класс на английском языке для детей 6-10лет. Испечем ароматный хлеб, сделаем 
-      овощной салат и полезный десерт их 
-      фруктов и йогурта! адрес Пречистенка 
-      40/2,стр. 2 ресторан Образ жизни 
-      (www.o-zh.ru) 
-    .details
-      обязательна предварительная запись - 
-      +74992462029,+79269023158 
-      стоимость участия 1000р.
+  %h2 News
 
-  %article.event
-    .description
-      %strong 18 апреля в 19.30 
-      кулинарный мастер-класс на английском языке для взрослых. Готовим греческий салат,
-      питу,кальмары и яблочно-миндальный 
-      тарт с поваром из Канады.
-    .details
-      обязательна предварительная запись - 
-      samovarcc@yandex.ru, 2500р, 
-      в ресторане DoDo - www.dodoproject.com
+  %h3 Upcoming events
 
-  %h3 Прошедшие мероприятия:
+  #upcoming-events
 
-  %article.event
-    .description
-      %strong 5, 6 и 7 марта 
-      изготовление hand made подарков в преддверии 8 марта! 
-      Раскрашиваем печенья в форме 
-      весенних цветов, делаем открытки 
-      своими руками.
+  %h3 Past events
 
-      Стоимость участия - 500р на 
-      неограниченное количество подарков!
-    .details
-      18.00 -22.00 в Katie O'Sheas - 
-      Грохольский переулок, д.26 стр. 5
-      (5 минут от м.Проспект Мира) -
-      http://www.katieosheas.ru/ru/node/4
+  #past-events

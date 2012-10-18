@@ -1,0 +1,89 @@
+%script#event-en{:type => "text/x-handlebars-template"}
+  %article.event
+    .date
+      %strong {{formatDateTime start_time}}
+    .name
+      {{name}}
+    .description
+      {{description}}
+      .fb-link
+        %a{:href => "http://www.facebook.com/{{id}}", :target => "_blank"} Read More...
+    .details
+      .venue
+        Venue:
+        %a{:href => "http://www.facebook.com/{{venue.id}}", :target => "_blank"} {{location}}
+      .bookings
+        book in advance - samovarcc@yandex.ru
+        +74992462029,+79269023158
+
+:javascript
+  function setupHandlebars(){
+    Handlebars.registerHelper("debug", function(optionalValue) {
+      console.log("Current Context");
+      console.log("====================");
+      console.log(this);
+
+      if (optionalValue) {
+        console.log("Value");
+        console.log("====================");
+        console.log(optionalValue);
+      }
+    });
+
+    Handlebars.registerHelper("formatPhoneNumber", function(phoneNumber) {
+      phoneNumber = phoneNumber.toString();
+      return "(" + phoneNumber.substr(0,3) + ") " + phoneNumber.substr(3,3) + "-" + phoneNumber.substr(6,4);
+    });
+
+    var month_names = new Array ( );
+    month_names[month_names.length] = "January";
+    month_names[month_names.length] = "February";
+    month_names[month_names.length] = "March";
+    month_names[month_names.length] = "April";
+    month_names[month_names.length] = "May";
+    month_names[month_names.length] = "June";
+    month_names[month_names.length] = "July";
+    month_names[month_names.length] = "August";
+    month_names[month_names.length] = "September";
+    month_names[month_names.length] = "October";
+    month_names[month_names.length] = "November";
+    month_names[month_names.length] = "December";
+
+    var day_names = new Array ( );
+    day_names[day_names.length] = "Sunday";
+    day_names[day_names.length] = "Monday";
+    day_names[day_names.length] = "Tuesday";
+    day_names[day_names.length] = "Wednesday";
+    day_names[day_names.length] = "Thursday";
+    day_names[day_names.length] = "Friday";
+    day_names[day_names.length] = "Saturday";
+
+    Handlebars.registerHelper("formatDate", function(dateString) {
+    var date = new Date(dateString);
+    return new Handlebars.SafeString('<time datedate="' + dateString + '" >' + day_names[date.getDay()] + ", "
+      + date.getDate() + " "
+      + month_names[date.getMonth()] + " "
+      + date.getFullYear()
+      + "</time>");
+
+    });
+
+    Handlebars.registerHelper("formatDateTime", function(dateString) {
+        var date = new Date(dateString);
+        var hour = (date.getHours() == 0 ? 12 : date.getHours() < 13 ? date.getHours() : date.getHours() - 12);
+        //hour = String(hour).length == 1 ? '0' + hour : hour;
+        var mins = date.getMinutes();
+        mins = String(mins).length == 1 ? '0' + mins : mins;
+        return new Handlebars.SafeString('<time datedate="' + dateString + '" >' + day_names[date.getDay()] + ", "
+          + date.getDate() + " "
+          + month_names[date.getMonth()] + " "
+          + date.getFullYear()
+          + " at " + hour
+          + ":" + mins + " "
+          + (date.getHours() >= 12 ? "PM" : "AM")
+          + "</time>");
+
+        });
+
+
+  }

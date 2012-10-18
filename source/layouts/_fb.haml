@@ -1,0 +1,64 @@
+= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"
+:javascript
+  window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.8.0.min.js"><\/script>')
+= javascript_include_tag "site"
+
+= partial "layouts/templates"
+
+/code required by facebook social plugins
+#fb-root
+:javascript
+  $.samovarcc = {
+    APP_ACCESS_TOKEN :
+        '477342942296571|idznCRbYKxCGNPmzVNloxvhpRmk'
+  }
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '477342942296571', // App ID
+      channelUrl : '//www.samovar.nichost.ru/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    FB.getLoginStatus(function(response) {
+      alert("status: " + response.status)
+      if (response.status === 'connected') {
+        // connected
+      } else if (response.status === 'not_authorized') {
+        // not_authorized
+        login();
+      } else {
+        // not_logged_in
+        login();
+      }
+    });
+
+    setupHandlebars();
+
+    loadNews();
+
+    //FB.api('/211625515634800?access_token=' + APP_ACCESS_TOKEN, function(response){
+    //  alert('Event name = ' + response.name)
+    //});
+
+  };
+
+  function login() {
+    FB.login(function(response) {
+      if (response.authResponse) {
+        // connected
+      } else {
+        // cancelled
+      }
+    });
+  }
+
+  // Load the Facebook SDK Asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));

@@ -12,4 +12,13 @@
   h3 {
     font-size: 12px;
   }
+
+  article.event {
+    padding-bottom: 0.5em;
+    .name {
+      font-weight: bolder;
+      font-size: 14px;
+    }
+
+  }
 }
