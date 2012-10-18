@@ -34,6 +34,10 @@ activate :livereload
 #   page "/admin/*"
 # end
 
+page "/coming-soon.html", :layout => "min"
+page "/maintenance.html", :layout => "min"
+page "/404.html", :layout => "min"
+
 with_layout :'layout-en-3col' do
   page "/lang-en/cuisine-*"
 end

@@ -1,0 +1,23 @@
+!!!5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+/ [if gt IE 8]><!
+%html.no-js
+  / <![endif]
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+      %title Samovar Cook & Chat Club
+      %meta{:content => "Samovar Cook & Chat Club | Language focused cooking classes", :name => "description"}
+      %meta{:content => "width=device-width", :name => "viewport"}
+      %script{:src => "/javascripts/vendor/modernizr-2.6.1.min.js", :type => "text/javascript"}
+      %link{:href => "/stylesheets/min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
+  %body
+    %header.main
+      %hgroup
+        %a{ :href => '/lang-en/index.html' }
+          %h1 Samovar Cook&Chat Club
+
+    %div{:role => "main", :class => "main"}= yield
+    =partial "layouts/footer"

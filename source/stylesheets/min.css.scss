@@ -1,0 +1,23 @@
+/* Minimal css collection for use on utility pages */
+@import "site-settings";
+@import "_vendor/normalize";
+@import "_vendor/html5bp";
+@import "_layout/grid";
+@import "_layout/header";
+@import "_layout/footer";
+.messages {
+  #russian {
+    @include span-columns(6, 12);
+  }
+  #english {
+    @include span-columns(6 omega, 12);
+  }
+}
+#google-fixurl {
+  @include span-columns(12);
+}
+.page-wrap {
+  text-align: center;
+  margin: 0 auto;
+  list-style-position: inside;
+}
