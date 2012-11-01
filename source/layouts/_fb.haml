@@ -15,44 +15,17 @@
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '477342942296571', // App ID
-      channelUrl : '//www.samovar.nichost.ru/channel.html', // Channel File
+      channelUrl : '//www.samovarcc.ru/channel.html', // Channel File
       status     : true, // check login status
       cookie     : true, // enable cookies to allow the server to access the session
       xfbml      : true  // parse XFBML
-    });
-
-    FB.getLoginStatus(function(response) {
-      alert("status: " + response.status)
-      if (response.status === 'connected') {
-        // connected
-      } else if (response.status === 'not_authorized') {
-        // not_authorized
-        login();
-      } else {
-        // not_logged_in
-        login();
-      }
     });
 
     setupHandlebars();
 
     loadNews();
 
-    //FB.api('/211625515634800?access_token=' + APP_ACCESS_TOKEN, function(response){
-    //  alert('Event name = ' + response.name)
-    //});
-
   };
-
-  function login() {
-    FB.login(function(response) {
-      if (response.authResponse) {
-        // connected
-      } else {
-        // cancelled
-      }
-    });
-  }
 
   // Load the Facebook SDK Asynchronously
   (function(d, s, id) {
