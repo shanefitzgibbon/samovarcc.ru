@@ -1,4 +1,6 @@
 # robotstxt.org/
 
 User-agent: *
-Disallow: /
+Disallow:
+
+sitemap: http://www.samovarcc.ru/sitemap.xml

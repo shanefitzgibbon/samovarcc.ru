@@ -1,19 +1,21 @@
 Options +FollowSymlinks
   RewriteEngine on
 
-  RewriteCond %{REQUEST_URI} !/maintenance.html$
-  RewriteCond %{REQUEST_URI} !^/images/
-  RewriteCond %{REQUEST_URI} !^/stylesheets/
-  RewriteCond %{REMOTE_HOST} !^91\.79\.207\.211
-  RewriteRule $ /maintenance.html [R=302,L]
-
 #  RewriteCond %{REQUEST_URI} !/maintenance.html$
-#  RewriteCond %{REQUEST_URI} !/404.html$
-#  RewriteCond %{REQUEST_URI} !/channel.html$
-#  RewriteCond %{REQUEST_URI} !^/ru/
-#  RewriteCond %{REQUEST_URI} !^/en/
 #  RewriteCond %{REQUEST_URI} !^/images/
-#  RewriteCond %{REQUEST_URI} !^/javascripts/
 #  RewriteCond %{REQUEST_URI} !^/stylesheets/
-#
-#  RewriteRule ^(.*)$ /ru/$1 [L,R=301]
+#  RewriteCond %{REMOTE_HOST} !^91\.79\.207\.211
+#  RewriteRule $ /maintenance.html [R=302,L]
+
+  RewriteCond %{REQUEST_URI} !/maintenance.html$
+  RewriteCond %{REQUEST_URI} !/404.html$
+  RewriteCond %{REQUEST_URI} !/channel.html$
+  RewriteCond %{REQUEST_URI} !/robots.txt$
+  RewriteCond %{REQUEST_URI} !/sitemap.xml$
+  RewriteCond %{REQUEST_URI} !^/ru/
+  RewriteCond %{REQUEST_URI} !^/en/
+  RewriteCond %{REQUEST_URI} !^/images/
+  RewriteCond %{REQUEST_URI} !^/javascripts/
+  RewriteCond %{REQUEST_URI} !^/stylesheets/
+
+  RewriteRule ^(.*)$ /ru/$1 [L,R=301]
