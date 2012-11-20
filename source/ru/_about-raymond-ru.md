@@ -1,4 +1,4 @@
-Raymond Virgill
+RAYMOND VIRGILL
 ---------------
 
-Raymond is an American teacher of English who has been in Moscow for two years. Proud of his Mexican heritage, Raymond combines his love of culture with his love of cooking. His social media updates are mostly about food, so we thought we would invite him to share his passion in person! Bilingual from infancy, Ray is able to deliver classes in both English and Spanish and to both children and adults.
+Рэймонд – преподаватель из Лос Анджелеса, который живет в Москве 2 года. Рэймонд гордится своим мексиканским происхождением и сочетает любовь к своей культуре с любовью к кулинарии. Рэймонд серьезно увлечен готовкой  – для того, чтобы выработать рецепт идеального теста для пиццы, у него ушло 2 недели ежедневных проб. Он устраивает мексиканские, итальянские, японские, русские «недели», каждый день готовя новые интересные блюда. Мы очень рады, что Рэймонд делится своим увлечением с нами. Рэймонд – билингва, и проводит мастер-классы для взрослых и детей на английском и испанском языках.

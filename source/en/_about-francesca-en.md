@@ -1,9 +1,8 @@
 Francesca Loche
 ---------------
 
-Mi chiamo Francesca, ho 28 anni e vivo a Mosca in pianta stabile ormai da un anno e mezzo. Cosa mi ha portato qui? La mia passione per la lingua e la cultura russa, nata negli anni universitari a Pisa, e la bellezza di Mosca, una citta’ che ti cattura e non ti lascia piu’ andare via.
-Ho fatto i lavori piu’ diversi, dal sottotitolaggio all’insegnamento dell’italiano, fino ad approdare, quest’anno,
-in un’azienda di design di cui sono l’interprete.
-Una delle mie passioni e’ la musica, amo suonare ma solo per poche persone, e ovviamente, da tipica italiana, adoro la buona cucina!
-Non mi piace solo mangiare ovviamente, ma anche cucinare, sopratutto per amici e parenti, credo che un buon piatto dipenda dall’amore col quale lo cucini, e quando cucini per le persone a cui vuoi bene il risultato non puo’ che essere ottimo!
-Il cibo per noi italiani e’ anche un modo ritrovarsi, sedersi a tavola e stare in buona compagnia, spero di riuscire a trasmettere questa tradizione a chi partecipera’ ai master class di cucina italiana e di passare del tempo in allegria!
+Francesca is a Russophile from Sardinia who came to Moscow to follow her passion for Russian language and culture. Here she teaches Italian and also works as an interpreter.
+
+Francesca grew up in a traditional Italian family where cooking was always a big part of their lives. She loves to cook for her friends and family and believes that the taste of the dishes depends on how much love was added into them. Which is why a meal cooked for your loved ones is bound to be good.
+
+Food for Italians is also an excuse to get together at a table in good company and have a great time, and Francesca recreates the atmosphere of a traditional Italian dinner in her cooking classes.

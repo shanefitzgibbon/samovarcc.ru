@@ -1,4 +1,4 @@
-Karen Percy
+KAREN PERCY
 -----------
 
-Karen Percy is an Australian broadcast journalist who has lived in Moscow for two years. She worked for Canada’s national broadcaster in Toronto, where she met her husband and fellow correspondent, Norman. Back in Australia, Karen continued her commitment to telling important stories at the Australian Broadcasting Corporation. That led to a posting as the ABC’s correspondent in Bangkok, covering stories all over Thailand and South-East Asia. Karen’s passions for travel and fine food have taken her all over the world, picking up some wonderful cooking skills along the way. We are very lucky to have her share her talents as a communicator and culinary connoisseur.
+Карен Перси живет в Москве 2 года, она журналист из Австралии с опытом работы корреспондентом в Торонто  и Бангкоке,где она жила 3 года и освещала события из Тайланда и Юго-Восточной Азии. В Тайланде Карен активно изучала местные кулинарные традиции и стала настоящим специалистом в кухне Юго-Восточной Азии. Карен путешествовала по всему миру, всегда в поисках интересных кулинарных впечатлений, у нее есть большая коллекция рецептов из разных стран. Нам очень повезло иметь Карен в команде Samovar Cook&Chat Club.

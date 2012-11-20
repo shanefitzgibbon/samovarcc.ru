@@ -1,11 +1,10 @@
-Dasha Stoochnoff
-----------------
+DASHA SCTOOCHNOFF
+-----------------
 
-Dasha Stoochnoff, a fifth generation Canadian of Russian descent, arrived for an intended one year adventure in Moscow late 2005; more than six years later, she continues to work at an international school as a Primary Teacher and Deputy Head Teacher.
+Даша Стучнофф родом из Канады, ее семья переехала из России 5 поколений назад . Даша приехала на историческую родину в 2005 году, думая остаться на один год, но ей очень понравилась, и она все еще здесь.
 
-She earned her degrees (Bachelor of Arts, Bachelor of Education) from Simon Fraser University and the University of British Columbia in Vancouver.
-Having worked in several establishments of various culinary flavours, she opened a South Indian restaurant in Vancouver.
+Даша много работала в различных ресторанах и в результате использовала накопившийся опыт, чтобы открыть ресторан южно индийской кухни в Ванкувере, который до сих пор очень популярен.
 
-While some of her many interests include travelling, Scuba diving, photography, and writing, Dasha has always had a passion for cooking, and enjoys trying out new culinary concoctions on her friends, as well as introducing children to the art of cuisine.
+Даша всегда страстно интересовалсь кулинарией, она обожает готовить для друзей и приобщать детей к искусству кулинарии. Помимо этого, Даша любит путешествовать, фотографировать, писать расскзы и нырять с аквалангом.
 
-Once she makes it back home to the rural waterfront setting in British Columbia, she’ll take up organic gardening once again, harvesting new ideas for lifelong health and well-being.
+Когда Даша вернется домой в деревушку на берегу озера в British Columbia, она заведет органическую ферму и будет пожинать идеи долгой и здоровой жизни.
