@@ -23,12 +23,32 @@
     @include span-columns(6, 6);
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    height: 7em;
   }
   img {
     @include span-columns(2, 6);
+    max-height: 100%;
+
   }
-  .link {
+  .info {
     @include span-columns(4 omega, 6);
+    padding-top: 1em;
+    .link {
+      @include span-columns(6, 6);
+      a, a:hover, a:visited {
+        color: $color4;
+      }
+    }
+    .caption {
+      @include span-columns(6, 6);
+      margin-top: 0.5em;
+      span {
+        color: gray;
+      }
+      .pub_date:before {
+        content: " | ";
+      }
+    }
   }
 }
 //PAGE - partners
